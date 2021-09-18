@@ -1,0 +1,27 @@
+st login: Sat Sep 18 08:21:12 on console
+(base) Prabhats-MBP:~ prabhat$ pwd
+/Users/prabhat
+(base) Prabhats-MBP:~ prabhat$ cd Desktop/CSS/Github/
+(base) Prabhats-MBP:Github prabhat$ pwd
+/Users/prabhat/Desktop/CSS/Github
+(base) Prabhats-MBP:Github prabhat$ ls
+GitHub-Collaboration-Practice	trial-repo
+(base) Prabhats-MBP:Github prabhat$ git clone https://github.com/LauraPathak/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+(base) Prabhats-MBP:Github prabhat$ cd Computational-Social-Science-Projects/
+(base) Prabhats-MBP:Computational-Social-Science-Projects prabhat$ pwd
+/Users/prabhat/Desktop/CSS/Github/Computational-Social-Science-Projects
+(base) Prabhats-MBP:Computational-Social-Science-Projects prabhat$ ls
+README.md
+(base) Prabhats-MBP:Computational-Social-Science-Projects prabhat$ mkdir "Project 1"
+(base) Prabhats-MBP:Computational-Social-Science-Projects prabhat$ cd Project\ 1/
+(base) Prabhats-MBP:Computational-Social-Science-Projects prabhat$ vim new-text.txt
+(base) Prabhats-MBP:Computational-Social-Science-Projects prabhat$ git add new-text.txt
+(base) Prabhats-MBP:Computational-Social-Science-Projects prabhat$ git commit -m "I uploaded new-text.txt"
+(base) Prabhats-MBP:Computational-Social-Science-Projects prabhat$ git push
+(base) Prabhats-MBP:Computational-Social-Science-Projects prabhat$ git pull
